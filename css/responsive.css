@@ -133,6 +133,11 @@
     max-width: 100%;
     margin-bottom: 0;
   }
+  /* services */
+  #services .services-block {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
   /* portfolio */
   #portfolio .portfolio-list .nav li {
     float: none;
