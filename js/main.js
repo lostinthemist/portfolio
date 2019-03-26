@@ -79,7 +79,7 @@ $(document).ready(function() {
 
   $(function() {
     typed.typed({
-      strings: ["Rauno Kaldmaa.", "Front-end developer.", "UX/UI designer", "Web developer.", "Korean-English translator"],
+      strings: ["Rauno Kaldmaa.", "Front-end developer.", "Web developer.", "UX/UI designer.", "Korean-English translator"],
       typeSpeed: 40,
       loop: true,
     });
