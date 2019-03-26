@@ -80,7 +80,7 @@ $(document).ready(function() {
   $(function() {
     typed.typed({
       strings: ["Rauno Kaldmaa.", "Front-end developer.", "UX/UI designer", "Web developer.", "Korean-English translator"],
-      typeSpeed: 100,
+      typeSpeed: 40,
       loop: true,
     });
   });
