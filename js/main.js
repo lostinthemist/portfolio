@@ -79,7 +79,17 @@ $(document).ready(function() {
 
   $(function() {
     typed.typed({
-      strings: ["Rauno Kaldmaa.", "Front-end developer.", "Web developer.", "UX/UI designer.", "Korean-English translator"],
+      strings: ["Rauno Kaldmaa.", "Front-end developer.", "Web developer.", "UX/UI designer.", "Tester."],
+      typeSpeed: 40,
+      loop: true,
+    });
+  });
+
+  var typed2 = $(".typed2");
+
+  $(function() {
+    typed2.typed({
+      strings: ["Rauno Kaldmaa입니다.", "프론트엔드 개발자입니다", "웹개발자입니다.", "UX/UI 디자이너입니다.", "테스터입니다."],
       typeSpeed: 40,
       loop: true,
     });
@@ -155,3 +165,17 @@ $(window).load(function(){
   });
 
 })
+
+
+// languague toggler between ENG and KOR
+
+$(function(){
+  $(".toggle-lang-eng").click(function(){
+    $(".span-kor").hide(0);
+    $(".span-eng").show(0);
+  });
+  $(".toggle-lang-kor").click(function(){
+    $(".span-eng").hide(0);
+    $(".span-kor").show(0);
+  });
+});

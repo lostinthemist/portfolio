@@ -217,6 +217,23 @@ nav ul li a {
   text-transform: capitalize;
 }
 
+nav ul li a.toggle-lang {
+  display: inline-block;
+  vertical-align: top;
+}
+
+nav ul li a.toggle-lang-eng {
+  margin-right: 5px;
+}
+
+nav ul li a.toggle-lang-kor {
+  margin-left: 5px;
+}
+
+.span-kor {
+  display: none;
+}
+
 .logo {
   float: left;
 }
@@ -285,6 +302,8 @@ nav ul li a {
   font-size: 20px;
 }
 
+
+
 /*-----------------------------------------------------------------------------------*/
 /*  Aout-us
 /*-----------------------------------------------------------------------------------*/
@@ -317,10 +336,11 @@ nav ul li a {
 }
 
 #about .about-descr .separator {
-  max-width: 80%;
+  max-width: 90%;
   margin-bottom: 0;
-  font-size: 17px;
+  font-size: 15px;
   text-align: left;
+  line-height: 25px;
 }
 
 /*-----------------------------------------------------------------------------------*/
@@ -336,7 +356,9 @@ nav ul li a {
 .owl-item {
   float: left;
 }
-.services-block span {
+
+.services-block span.section-block-title {
+  display: block;
   margin: 10px 0;
   position: relative;
   font-size: 13px;
@@ -344,9 +366,12 @@ nav ul li a {
   letter-spacing: 0.1em;
   font-weight: 500;
   text-transform: uppercase;
-  display: block;
 }
 
+.services-block span.section-block-title.span-kor {
+  display: none;
+  font-weight: bold;
+}
 .services-block .separator {
   margin: 0;
   font-size: 13px;
@@ -357,6 +382,7 @@ nav ul li a {
   font-size: 44px;
   color: #b8a07e;
   line-height: 44px;
+  display: block;
 }
 
 
