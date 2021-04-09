@@ -232,6 +232,7 @@ nav ul li a.toggle-lang-kor {
 
 .span-kor {
   display: none;
+  word-break: keep-all
 }
 
 .logo {
