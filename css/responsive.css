@@ -41,7 +41,7 @@
   }
   .responsive {
     float: right;
-    padding-top: 15px;
+    padding-top: 10px;
     display: block;
   }
   /* About */
@@ -110,9 +110,12 @@
     padding-top: 10px;
     padding-bottom: 10px;
   }
+  .nav-menu li:last-child {
+    line-height: 15px;
+  }
   .responsive {
     float: right;
-    padding-top: 15px;
+    padding-top: 10px;
     display: block;
   }
   /* About */
@@ -188,7 +191,7 @@
   }
   .responsive {
     float: right;
-    padding-top: 15px;
+    padding-top: 10px;
     display: block;
   }
   /* About */
@@ -239,7 +242,7 @@
 @media (max-width: 480px) {
   /* Navbar */
   nav {
-    padding: 20px 15px;
+    padding: 10px 15px;
   }
   .nav-menu {
     margin-top: 40px;
@@ -259,7 +262,7 @@
   }
   .responsive {
     float: right;
-    padding-top: 15px;
+    padding-top: 10px;
     display: block;
   }
   /* About */
@@ -329,7 +332,7 @@
   }
   .responsive {
     float: right;
-    padding-top: 15px;
+    padding-top: 10px;
     display: block;
   }
   /* About */

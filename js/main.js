@@ -170,11 +170,13 @@ $(window).load(function(){
 // languague toggler between ENG and KOR
 
 $(function(){
-  $(".toggle-lang-eng").click(function(){
+  $(".toggle-lang-eng").click(function(e){
+    e.preventDefault;
     $(".span-kor").hide(0);
     $(".span-eng").show(0);
   });
-  $(".toggle-lang-kor").click(function(){
+  $(".toggle-lang-kor").click(function(e){
+    e.preventDefault;
     $(".span-eng").hide(0);
     $(".span-kor").show(0);
   });
