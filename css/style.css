@@ -1,4 +1,3 @@
-
 /*
   Theme Name: Folio
   Theme URL: https://bootstrapmade.com/folio-bootstrap-portfolio-template/
@@ -27,7 +26,12 @@ body {
   box-sizing: border-box;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin: 0;
 }
 
@@ -60,7 +64,8 @@ a:hover {
   transition: all 0.5s ease-in-out 0s;
 }
 
-a:hover, a:focus {
+a:hover,
+a:focus {
   color: #b8a07e;
   text-decoration: underline;
 }
@@ -112,7 +117,8 @@ p {
   text-transform: uppercase;
 }
 
-.btn:hover, .btn:focus {
+.btn:hover,
+.btn:focus {
   color: #fff;
 }
 
@@ -284,6 +290,7 @@ nav ul li a.toggle-lang-kor {
   text-transform: uppercase;
   color: #fff;
 }
+
 @media (max-width: 767px) {
   .header-content h1 {
     height: 108px;
@@ -313,7 +320,7 @@ nav ul li a.toggle-lang-kor {
 
 
 /*-----------------------------------------------------------------------------------*/
-/*  Aout-us
+/*  About-us
 /*-----------------------------------------------------------------------------------*/
 
 #about {
@@ -352,10 +359,52 @@ nav ul li a.toggle-lang-kor {
 }
 
 /*-----------------------------------------------------------------------------------*/
+/*   Skills
+/*-----------------------------------------------------------------------------------*/
+
+#skills {
+  margin: 2.5rem 0;
+}
+
+#skills .section-title {
+  margin-bottom: 1.5rem !important;
+}
+
+#skills .skills-ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#skills .skills-li {
+  display: flex;
+  align-items: center;
+  padding: 6px 15px;
+  border: 2px solid #b8a07e;
+  border-radius: 20px;
+  font-weight: 500;
+  margin-bottom: 8px;
+  margin-right: 5px;
+  transition: 0.3s;
+}
+
+#skills .skills-li:hover {
+  /* border: 2px solid #000; */
+  background-color: #b8a07e;
+  color: #fff;
+}
+
+#skills ion-icon {
+  font-size: 20px;
+  position: relative;
+  left: -4px;
+}
+
+/*-----------------------------------------------------------------------------------*/
 /*   Services
 /*-----------------------------------------------------------------------------------*/
 
 #services {
+  padding-top: 2.5rem;
   background: #f7f7f7;
   position: relative;
   padding-bottom: 80px;
@@ -380,6 +429,7 @@ nav ul li a.toggle-lang-kor {
   display: none;
   font-weight: bold;
 }
+
 .services-block .separator {
   margin: 0;
   font-size: 13px;
@@ -396,7 +446,8 @@ nav ul li a.toggle-lang-kor {
 .services-carousel .services-block {
   margin-bottom: 5px;
 }
-.services-carousel  .owl-stage-outer {
+
+.services-carousel .owl-stage-outer {
   overflow: hidden;
 }
 
@@ -462,7 +513,8 @@ nav ul li a.toggle-lang-kor {
   transition: all 0.5s ease-in-out 0s;
 }
 
-#portfolio .portfolio-list .nav li:hover, #portfolio .portfolio-list .nav li.filter-active  {
+#portfolio .portfolio-list .nav li:hover,
+#portfolio .portfolio-list .nav li.filter-active {
   color: #b8a07e;
   -moz-transition: all 0.5s ease-in-out 0s;
   -ms-transition: all 0.5s ease-in-out 0s;
@@ -493,7 +545,8 @@ nav ul li a.toggle-lang-kor {
 /*  Journal
 /*-----------------------------------------------------------------------------------*/
 
-#journal,  #journal-blog {
+#journal,
+#journal-blog {
   height: auto;
   width: 100%;
   background: #f7f7f7;
@@ -573,12 +626,13 @@ nav ul li a.toggle-lang-kor {
   padding-bottom: 10px;
 }
 
-#contact input, #contact textarea {
+#contact input,
+#contact textarea {
   width: 100%;
 }
 
 
-#contact  #sendmessage {
+#contact #sendmessage {
   color: #18d26e;
   border: 1px solid #18d26e;
   display: none;
@@ -588,7 +642,7 @@ nav ul li a.toggle-lang-kor {
   margin: 15px;
 }
 
-#contact  #errormessage {
+#contact #errormessage {
   color: red;
   display: none;
   border: 1px solid red;
@@ -598,7 +652,9 @@ nav ul li a.toggle-lang-kor {
   margin: 15px;
 }
 
-#contact #sendmessage.show, #contact #errormessage.show, #contact .show {
+#contact #sendmessage.show,
+#contact #errormessage.show,
+#contact .show {
   display: block;
 }
 
