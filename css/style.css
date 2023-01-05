@@ -385,6 +385,7 @@ nav ul li a.toggle-lang-kor {
   margin-bottom: 8px;
   margin-right: 5px;
   transition: 0.3s;
+  cursor: default;
 }
 
 #skills .skills-li:hover {
@@ -496,7 +497,7 @@ nav ul li a.toggle-lang-kor {
 }
 
 #portfolio .portfolio-list .nav li {
-  margin: 0 40px 0 0;
+  margin: 0 40px 15px 0;
   float: left;
   font-size: 14px;
   color: #999999;
