@@ -82,6 +82,7 @@ $(document).ready(function() {
       strings: ["Rauno Kaldmaa.", "Front-end developer.", "Web developer.", "UX/UI designer.", "Tester."],
       typeSpeed: 40,
       loop: true,
+      startDelay: 1300,
     });
   });
 
@@ -92,6 +93,7 @@ $(document).ready(function() {
       strings: ["Rauno Kaldmaa입니다.", "프론트엔드 개발자입니다.", "웹개발자입니다.", "UX/UI 디자이너입니다.", "테스터입니다."],
       typeSpeed: 40,
       loop: true,
+      startDelay: 1300,
     });
   });
 
