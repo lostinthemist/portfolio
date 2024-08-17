@@ -575,6 +575,13 @@ nav ul li a.toggle-lang-kor {
   margin-bottom: 30px;
   overflow: hidden;
   min-height: 260px;
+  transition: all 0.2s ease-in-out;
+  border-radius: 20px;
+  padding-top: 15px;
+}
+
+.portfolio-thumbnail:hover {
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.14);
 }
 
 .portfolio-thumbnail img {
